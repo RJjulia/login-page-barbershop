@@ -1,0 +1,26 @@
+.login-container{
+    position: relative;
+    height: 450px;
+    width: 768px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px #A0A0A0;
+    overflow: hidden;
+    background-image: url(https://cufreebies.com/wp-content/uploads/2019/05/d4c5d0b8a58925c29191ce28b09e355c_resize.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:768px){
+    .login-container{
+        width: 75vw;
+        height: 75vh;
+    }
+}
+
+@media (max-width:480px){
+    .login-container{
+        width: 100vw;
+        height: 100vh;
+        box-shadow: none;
+    }
+}
